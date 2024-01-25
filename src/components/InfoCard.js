@@ -23,9 +23,18 @@ function InfoCard() {
                 setIsSubmitSuccessful(false);
             });
     }
+    const handleWhatsAppClick = () => {
+        window.open('https://wa.me/message/NDIRWGDP4KLMM1', '_blank');
+      };
 
     return (
         <div className='cardsInfo'>
+            <h1 style={{textAlign:'center'}}>CONTÁCTANOS!</h1>
+            <div className='whatsApp-container' onClick={handleWhatsAppClick}> 
+            <h1> WhatsApp </h1>
+            <img className="imagen" src='./images/whatsApp.png' alt="WhatsApp Logo" />
+            </div>
+            <hr/>
             <h2> Envíanos tus datos y uno de nuestros agentes te estará contactando </h2>
             {isSubmitSuccessful ? (
                 <div className="success-message">
@@ -39,7 +48,6 @@ function InfoCard() {
                                 <label htmlFor="name">Nombre Completo:</label>
                                 <input type="text" id="name" name="username" placeholder="Ingresa tu nombre aquí..." required />
                             </fieldset>
-
                             <fieldset>
                                 <label htmlFor="email">Correo Electrónico:</label>
                                 <input type="email" id="email" name="email" placeholder="Ej: email123@gmail.com" required />
@@ -53,14 +61,16 @@ function InfoCard() {
                             <button>Enviar</button>
                         </form>
                     </div>
-                    <div className="logo-column">
                         <div className="logo-container">
                             <img className="imagen" src='./images/HaciendaPlayaBlanca-Blanco.png' alt="Hacienda Playa Blanca" />
                             <img className="imagen" src='./images/TerraticaLogo.png' alt="Terratica Logo" />
-                        </div>
+          
                     </div>
+                    
                 </div>
             )}
+
+
         </div>
     );
 }

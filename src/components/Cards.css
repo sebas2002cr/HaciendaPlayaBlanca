@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 3rem;
   background: #fff;
   }
 
@@ -26,7 +26,7 @@
   }
 
   h2{
-    font-size: small;
+    font-size: large;
     text-align: center;
     width: 100%;
   }
@@ -44,7 +44,7 @@
   /* ------------------------CONTAINER DE INFORMACION------------------------ */
 
   .cardsInfo {
-    width: 100%;
+    /* width: 100%; */
     padding: 4rem;
     background: #f0eeee;
   }
@@ -54,7 +54,7 @@
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 20px 5px;
+    border-radius: 20px ;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -99,7 +99,6 @@
   }
 
 
-
   .custom-form {
     background-color: #fff;
     border-radius: 8px;
@@ -137,3 +136,80 @@
   .custom-form button:hover {
     background-color: #0056b3;
   }
+
+  /* Estilos del botón de WhatsApp */
+.whatsApp-container {
+  background-color: transparent;
+    /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 20px ; */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Añade esta línea para centrar verticalmente */
+    max-width: 1120px;
+    width: 100%;
+
+}
+.whatsApp-container h1 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: auto;
+ }
+ .whatsApp-container img {
+  width: 100%;
+  height: auto;
+ }
+
+ hr{
+  color: #f2ebeb;
+ }
+
+ /* Estilos del botón "Obtener información por correo" */
+.email-container {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.email-container:hover {
+  background-color: #e5f0fc;
+}
+
+/* Estilos del botón "Escríbenos por WhatsApp" */
+.whatsapp-container {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.whatsapp-container:hover {
+  background-color: #128c7e28;
+}

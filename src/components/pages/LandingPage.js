@@ -7,12 +7,15 @@ import InfoCard from '../InfoCard';
 import '../../App.css';
 
 function LandingPage() {
+
   return (
     <>
       <HeroSection id="inicio" />
       <Carousel />
       <Cards id="plano" />
       <InfoCard id="contacto" />
+
+    
     </>
   );
 }
