@@ -13,11 +13,6 @@
     object-fit: contain;
   }
 
-  .container-image image{
-    width: 10px;
-    position: fixed;
-    z-index: -1;
-  }
 
   .container-image{
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
@@ -79,10 +74,7 @@
     align-items: center;
   }
   
-  .logo-column {
 
-  }
-  
 
   .logo-container {
     display: flex;
@@ -120,7 +112,7 @@
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    font-size: 100%;
+    font-size: auto;
   }
   
   .custom-form input {

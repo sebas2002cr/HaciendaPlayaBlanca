@@ -49,34 +49,7 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img src='./images/HaciendaPlayaBlanca-Negro.png' style={{ width: '100%', height: 'auto', maxWidth:'40px' }}/>
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Inicio
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/listings'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Planos
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/contact-us'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Contáctenos
-              </Link>
-            </li>
-          </ul>
+        
         </div>
       </nav>
     </>
