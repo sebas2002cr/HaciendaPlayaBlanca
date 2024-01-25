@@ -54,7 +54,7 @@
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 20px ;
+    border-radius: 0px ;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -72,6 +72,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
 
